@@ -90,3 +90,30 @@ p{
 .berajot{
     width: 50%;
 }
+
+@media only screen and (max-width: 1024px) {
+    .container2 {
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    .column {
+        flex-basis: 45%;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container2 {
+        margin-top: 5%;
+    }
+    .column {
+        flex-basis: 100%;
+        padding: 15px;
+    }
+    .image {
+        max-width: 100%;
+    }
+    .berajot {
+        width: 100%;
+    }
+}
