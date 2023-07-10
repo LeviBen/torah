@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      background-color: lightgray;
+      padding: 10px;
+    }
+
+    main {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Responsive Styling for iPad */
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .container {
+        max-width: 600px;
+      }
+    }
+
+    /* Responsive Styling for iPhone */
+    @media only screen and (max-width: 767px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>This is the Header</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>This is the Heading</h1>
+      <p>This is the paragraph.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>This is the footer.</p>
+  </footer>
+</body>
+</html>

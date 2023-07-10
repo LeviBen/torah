@@ -1,18 +1,92 @@
-.banner{
+/* .banner{
     display:block;
     margin:0 auto;
     width: 500px;
     height: 20px;
     
+} */
+
+/* .title{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+} */
+/* .perasha{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+} */
+body{
+    background-color:blanchedalmond
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+
+.navbar{
+    background-color: blue;
 }
 
-.title{
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
+/* Responsive Styles for iPhone */
+@media only screen and (max-width: 414px) {
+    .title {
+        font-size: 22px;
+    }
+
+    .perasha {
+        font-size: 18px;
+    }
+
+    p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
-.perasha{
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
+
+/* Responsive Styles for iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .perasha {
+        font-size: 24px;
+    }
+
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* ////////////////////////////////////////////////////////////////Comida////////////////////////////////////////////// */
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.column {
+    flex-basis: 31%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: justify;
+    
+}
+.berajot{
+    width: 50%;
 }
