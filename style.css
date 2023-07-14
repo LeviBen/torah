@@ -1,12 +1,19 @@
+.gradient-background {
+    background: linear-gradient(300deg, #66bfbf, #66bfbf);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
 body{
-    background-color:blanchedalmond
+    background-color: #fcfafa;
 }
-.container {
+.l-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
     padding: 20px;
+    margin-left: 15%; 
+    margin-right: 15%;
   }
 
 .navbar{
@@ -19,7 +26,7 @@ body{
         font-size: 22px;
     }
 
-    .perasha {
+    .perasha-title {
         font-size: 18px;
     }
 
@@ -35,7 +42,7 @@ body{
         font-size: 28px;
     }
 
-    .perasha {
+    .perasha-title {
         font-size: 24px;
     }
 
@@ -69,6 +76,7 @@ body{
 }
 p{
     text-align: justify;
+   
     
 }
 .berajot{
@@ -107,3 +115,6 @@ p{
         width: 100%;
     }
 }
+
+/* ///////////////////////////////////////BAÑO/////////////////////////////////////////////// */
+
